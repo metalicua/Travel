@@ -1,0 +1,38 @@
+.section_3 {
+    background-image: url('../img/bg-section_3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__title {
+        padding-bottom: 93px;
+        font-family: $font-aleo;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+}
+
+.section_3-box {
+    padding: 110px 0 198px;
+}
+
+.image-info {
+    margin-bottom: 4px;
+    padding: 50px 43px 30px 60px;
+    background-color: $color-dark-gray;
+}
+
+.image__title {
+    font-size: $size-h3;
+    text-transform: uppercase;
+    padding-bottom: 45px;
+    letter-spacing: -3px;
+}
+
+.image__discription {
+    letter-spacing: -1px;
+}
+
+.fa-quote-left:before {
+    content: "\f10d";
+    color: $color-light-blue;
+} 

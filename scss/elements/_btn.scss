@@ -1,0 +1,9 @@
+.btn {
+    padding: 22px 42px;
+    text-transform: uppercase;
+    background-color: $color-light-blue;
+
+    &:hover {
+        background-color: $color-dark-gray;
+    }
+}

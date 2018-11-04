@@ -1,0 +1,42 @@
+.footer {
+    text-align: center;
+    background-color: $color-gray;
+
+    &__logo {
+        padding-bottom: 14px;
+        letter-spacing: 2px;
+        font-size: $size-lagger;
+        text-transform: uppercase;
+    }
+
+    &__discription {
+        padding-bottom: 28px;
+        letter-spacing: 1px;
+    }
+
+    &__link:hover {
+        color: $color-darkness-blue;
+    }
+}
+
+.footer-box {
+    padding: 124px 0 55px;
+}
+
+.social__link {
+
+    margin: 0 10px;
+
+    &:first-child {
+        margin-left: 0;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &--active,
+    &:hover {
+        color: $color-darkness-blue;
+    }
+}

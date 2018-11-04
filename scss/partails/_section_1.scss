@@ -1,0 +1,65 @@
+.section_1 {
+    background-image: url('../img/bg_choose.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__title {
+        padding: 74px 0 56px;
+        font-family: $font-aleo;
+        
+    }
+
+    &__discription {
+        padding-bottom: 45px;
+
+        p:not(:last-child) {
+            padding-bottom: 29px;
+        }
+    }
+
+    &__bottom {
+        background-color: $color-dark-gray;
+  
+        & span {
+            display: block;
+            
+        }
+    }
+
+    &__row {
+        padding: 98px 0 110px;
+        text-align: center;
+    }
+}
+
+.section_1-box {
+    padding: 120px 0;
+}
+
+.section_1__image-top {
+    margin: 0 80px;
+}
+
+.section_1__image-bottom {
+    text-align: right;
+}
+
+.icon-discript {
+    padding-top: 30px;
+    font-size: $size-h2;
+}
+
+.blue-serch {
+    font-size: 60px;
+    color: $color-dark-blue;
+}
+
+.icon-checked {
+    font-size: 60px;
+    color: $color-red;
+}
+
+.icon-like {
+    font-size: 60px;
+    color: $color-blue;
+}

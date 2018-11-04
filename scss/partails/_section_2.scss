@@ -1,0 +1,49 @@
+.section_2 {
+
+    &__subtitle {
+        padding-bottom: 30px;
+        font-size: $size-h3;
+    }
+
+    &__title {
+        padding-bottom: 22px;
+        text-transform: uppercase;
+       
+    }
+
+    &__discription {
+        padding-bottom: 44px;       
+    }
+
+    &__btn {
+        padding: 22px 66px;
+    }
+}
+
+.section_2-top {
+    padding: 230px 0 100px;
+    background-image: url('../img/bg-travel-top.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.left-box {
+    margin-right: 15px;
+}
+
+.right-box {
+    margin-left: 15px;
+}
+
+.section_2-bottom {
+    padding: 227px 0 100px;
+    background-image: url('../img/bg-travel-bottom.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section_2-box {
+    padding: 50px 30px;
+    background-color: rgba(54, 51, 47, 0.7);
+}

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 1024px;
+    max-width: 100%px;
+    font-family: $font-josefin;
+    font-size: $size-basic;
+    color: $color-white;
+    border: 15px solid $color-white;
+}
+
+h1 {
+    font-size: $size-h1;        
+}
+
+h2 {
+    font-size: $size-h2; 
+}
+
+p {
+    line-height: 1.6;
+    
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: $color-white;
+}
+
+.icon-arrow,
+.icon-serch,
+.icon-checked,
+.icon-like {
+    font-family: $font-icomoon;
+}

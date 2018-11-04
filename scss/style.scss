@@ -1,0 +1,29 @@
+//fonts
+
+@import 'fonts/fonts';
+
+//variables
+
+@import 'variables';
+
+//layout
+
+@import 'layout/_grid';
+
+//common
+
+@import 'common/_main';
+
+//elements
+
+@import 'elements/_form';
+@import 'elements/_navigation';
+@import 'elements/_btn';
+
+//partails
+
+@import 'partails/_header';
+@import 'partails/_section_1';
+@import 'partails/_section_2';
+@import 'partails/_section_3';
+@import 'partails/_footer';

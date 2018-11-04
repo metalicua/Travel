@@ -1,0 +1,32 @@
+.navigation {
+        
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        display: inline;
+        margin: 0 20px;
+        font-family: $font-aleo;
+        font-size: 14px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &:first-child {
+            margin-left: 25px;
+        }
+    }
+
+    &__link {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $color-white;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

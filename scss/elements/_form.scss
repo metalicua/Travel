@@ -1,0 +1,31 @@
+.form {
+    display: flex;
+    font-size: 0;
+    
+    &__input[placeholder] {
+        width: 75%;
+        padding: 17px 0;
+        text-align: center;
+        font-size: $size-less;
+        line-height: 1.85;
+        letter-spacing: 2px;
+        border: none;
+        border-radius: 0;
+    }
+
+    &__btn {
+        display: inline;
+        padding: 19px 20px 19px 34px;
+        font-family: $font-aleo;
+        font-size: $size-less;
+        color: $color-white;
+        text-transform: uppercase;
+        background-color: $color-light-blue;
+        border: 2px solid $color-white;
+        cursor: pointer;
+
+        .icon-serch {
+            margin-left: $size-less;
+        }
+    }
+}

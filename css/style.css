@@ -181,24 +181,28 @@ a {
   .logo-link:hover {
     text-decoration: underline; }
 
-.section_1 {
+.section_1__title {
+  padding: 74px 0 56px;
+  font-family: "Aleo"; }
+
+.section_1__discription {
+  padding-bottom: 45px; }
+  .section_1__discription p:not(:last-child) {
+    padding-bottom: 29px; }
+
+.section_1__bottom {
+  background-color: #333333; }
+  .section_1__bottom span {
+    display: block; }
+
+.section_1__row {
+  padding: 98px 0 110px;
+  text-align: center; }
+
+.section-wraper {
   background-image: url("../img/bg_choose.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
-  .section_1__title {
-    padding: 74px 0 56px;
-    font-family: "Aleo"; }
-  .section_1__discription {
-    padding-bottom: 45px; }
-    .section_1__discription p:not(:last-child) {
-      padding-bottom: 29px; }
-  .section_1__bottom {
-    background-color: #333333; }
-    .section_1__bottom span {
-      display: block; }
-  .section_1__row {
-    padding: 98px 0 110px;
-    text-align: center; }
 
 .section_1-box {
   padding: 120px 0; }

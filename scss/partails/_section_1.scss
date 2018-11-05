@@ -1,8 +1,5 @@
 .section_1 {
-    background-image: url('../img/bg_choose.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    
     &__title {
         padding: 74px 0 56px;
         font-family: $font-aleo;
@@ -30,6 +27,12 @@
         padding: 98px 0 110px;
         text-align: center;
     }
+}
+
+.section-wraper {
+    background-image: url('../img/bg_choose.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .section_1-box {
